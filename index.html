@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" 
     />
     <title>GameMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -14,30 +15,34 @@
     <section id="inicio">
         <div class="contenido">
             <header>
-                <div class="contenido-header">
-                    <h1>GM</h1>
-                    <nav class="nav" class="">
-                        <ul id="links">
-                            <li><a href="#inicio">INICIO</a></li>
-                            <li><a href="#sobremi">SOBREMI</a></li>
-                            <li><a href="#productos">PRODUCTOS</a></li>
-                            <li><a href="#habilidades">VENTAS</a></li>
-                            <li><a href="#contacto">CONTACTANOS</a></li>
+                <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">G.M</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#sobremi">SobrerMi</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Ventas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contactanos</a>
+                          </li>
                         </ul>
-                    </nav>
-
-                    <!-- Iconos -->
-                    <div id="iconos">
-                        <i class="fa-solid fa-bars"></i>
+                      </div>
                     </div>
+                  </nav>
 
-                    <!-- Redes -->
-                    <div class="redes">
-                        <a href=""><i class="fa-brands fa-youtube"></i></a>
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                    </div>
-                </div>
             </header>
             <div class="presentacion" id="inicio">
                 <p class="bienvenida">Bienvenidos</p>
@@ -186,8 +191,7 @@
                 <a href=""><i class="fa-brands fa-square-instagram"></i></a>
             </div>
         </footer>
-    
-
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>
