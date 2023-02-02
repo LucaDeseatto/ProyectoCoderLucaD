@@ -271,13 +271,11 @@ html {
 #contacto {
   padding: 100px 15px;
   background-color: #f3f3f3; }
-
-#contacto .titulo-seccion {
-  margin-bottom: 20px; }
-
-#contacto .contenedor-form {
-  max-width: 1100px;
-  margin: auto; }
+  #contacto .titulo-seccion {
+    margin-bottom: 20px; }
+  #contacto .contenedor-form {
+    max-width: 1100px;
+    margin: auto; }
 
 #contacto .contenedor-form .fila {
   margin-bottom: 15px; }
@@ -324,13 +322,12 @@ html {
   color: #fff;
   text-align: center;
   padding: 30px 0; }
-
-#footer a {
-  text-decoration: none;
-  color: royalblue;
-  display: inline-block;
-  margin: 5px;
-  font-size: 26px; }
+  #footer a {
+    text-decoration: none;
+    color: royalblue;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px; }
 
 @media screen and (max-widht: 800px) {
   .redes {
